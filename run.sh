@@ -19,7 +19,7 @@ if ! is_wsl; then
     # The steps below are obtained from https://docs.docker.com/engine/install/linux-postinstall
 
     # To use the docker command without sudo, create a Unix group called docker.
-    sudo groupadd docker # you may get a response from the terminal saying that group 'docker' already exists
+    # sudo groupadd docker # you may get a response from the terminal saying that group 'docker' already exists
 
     # Add your user to the docker group.
     sudo usermod -aG docker $USER
